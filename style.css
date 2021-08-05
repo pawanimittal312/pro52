@@ -1,0 +1,42 @@
+h1{color:#000000}
+h2{color:#006400}
+body{border:solid}
+
+.header{
+    background :url(https://static.wixstatic.com/media/bb1bd6_f221ad0f4d6f4103bf1d37b68b04492e~mv2.png/v1/fill/w_586,h_335,al_c,q_95/bb1bd6_f221ad0f4d6f4103bf1d37b68b04492e~mv2.webp)
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:100px
+    
+}
+
+p,h1{
+    text-align: center;
+}
+.links{
+    color: #00008b
+}
+
+.item:hover img{
+    opacity:0.33;
+}
+a{
+    color:white;
+}
+a:link{
+    color:white;
+
+}
+a:hover{
+    color: darkcyan
+}
